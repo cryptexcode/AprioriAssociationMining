@@ -19,7 +19,7 @@ cd to the source directory.  Command structure is following.
 
  * ```
  java -jar dist/Apiori_DM.jar 4 3 /WorkSpace/Courseworks/COSC_6335_DM/Project1/proj_1/transactionDB.txt /WorkSpace/Courseworks/COSC_6335_DM/Project1/my_outputs/sup_4_k_3.txt
- ```
+```
 
 **2. Run from source code:**
 * The code is in MineItemsets class.
@@ -32,6 +32,7 @@ public static void main(String[] args) {
         int k = 4;
         String inputFilePath = "";
         String outputFilePath = "";
-         new MineItemsets(min_sup, k, inputFilePath, outputFilePath);
+        
+        new MineItemsets(min_sup, k, inputFilePath, outputFilePath);
 }
 ```
